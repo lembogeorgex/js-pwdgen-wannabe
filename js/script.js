@@ -5,3 +5,6 @@ console.log("JS OK")
 
 const userNameVar= prompt("Qual'è il tuo nome?", "George")
 console.log(userNameVar)
+
+const userSurnameVar= prompt("Qual'è il tuo cognome?", "Lembo")
+console.log(userSurnameVar)
