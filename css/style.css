@@ -6,12 +6,14 @@
 
 header {
     height: 100px;
-    background-color: darkseagreen;
+    opacity: 0.8;
+    background-image: url(/img/mywall.jpg);
+
 
 }
 
 main {
-    background-color: lightpink;
+    background-image: url(/img/mywall.jpg);
     height: calc(100vh - 100px);
 }
 
@@ -19,5 +21,5 @@ main {
     width: 500px;
     border: 10px solid burlywood;
     height: 200px;
-    background-color: lightblue
+    background-color: rgba(rgb(20, 12, 12), rgb(10, 14, 10), rgb(7, 7, 8), 0.5)
 }
