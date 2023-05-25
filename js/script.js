@@ -12,3 +12,9 @@ console.log(userSurnameVar);
 
 const userColorVar= prompt("Qual'è il tuo colore preferito?", "Verde")
 console.log(userColorVar);
+
+const userPwdResult = userNameVar + userSurnameVar + userColorVar + "21"
+console.log(userPwdResult);
+
+
+document.getElementById("pwdResult").innerText= userPwdResult
