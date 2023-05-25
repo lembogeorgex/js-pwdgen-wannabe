@@ -1,0 +1,23 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+header {
+    height: 100px;
+    background-color: darkseagreen;
+
+}
+
+main {
+    background-color: lightpink;
+    height: calc(100vh - 100px);
+}
+
+.pwd-section {
+    width: 500px;
+    border: 10px solid burlywood;
+    height: 200px;
+    background-color: lightblue
+}
